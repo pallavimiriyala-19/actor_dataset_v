@@ -1,0 +1,57 @@
+# Windows GPU Installation - Compatible Versions
+# For NVIDIA CUDA support on Windows
+
+# ============ CORE DEPENDENCIES ============
+requests==2.31.0
+requests-cache==1.1.0
+beautifulsoup4==4.12.0
+lxml==4.9.0
+
+# ============ IMAGE PROCESSING ============
+# For Windows, use specific versions that work with GPU
+opencv-python==4.8.1.78
+Pillow==10.0.0
+numpy==1.24.3
+scikit-image==0.21.0
+
+# ============ FACE DETECTION & EMBEDDINGS (GPU-OPTIMIZED) ============
+# InsightFace works best with these specific versions on Windows
+insightface==0.7.3
+# Use ONNX Runtime GPU version - IMPORTANT for Windows GPU
+onnxruntime-gpu==1.17.1
+
+# ============ ONNX MODEL PACKAGES ============
+# These are recommended for Windows GPU setup
+onnx==1.15.0
+onnxruntime==1.17.1
+
+# ============ TMDb API ============
+tmdb-python==1.0.0
+
+# ============ DATA PROCESSING ============
+pandas==2.0.3
+
+# ============ LOGGING & UTILITIES ============
+python-dotenv==1.0.0
+tqdm==4.66.1
+
+# ============ IMAGE DEDUPLICATION ============
+imagehash==4.3.1
+
+# ============ IMAGE SEARCH ============
+bing-image-downloader==1.3.3
+ddg-python==1.0.0
+
+# ============ RETRY & RATE LIMITING ============
+tenacity==8.2.0
+
+# ============ JSON UTILITIES ============
+jsonschema==4.19.0
+
+# ============ TESTING ============
+pytest==7.4.0
+
+# ============ WINDOWS-SPECIFIC DEPENDENCIES ============
+# These may be needed on Windows for GPU support
+scikit-learn==1.3.0
+scipy==1.11.2
